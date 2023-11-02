@@ -1,7 +1,7 @@
 import React, { useState} from "react";
 
 function Contact () {
-    const [fromData, setFormData] = useState ({
+    const [formData, setFormData] = useState ({
         name: '',
         email: '',
         message: '',
@@ -16,7 +16,7 @@ function Contact () {
     const handleChange = (e) => {
         const { name, Value } = e.target;
         setFormData({
-            ...fromData,
+            ...formData,
             [name]: Value,
         });
 //  clearing message after user types
@@ -26,5 +26,5 @@ function Contact () {
         }));
     };
 
-    
+
 }
