@@ -39,7 +39,7 @@ const router = createBrowserRouter([
       },
       // route for portfolio with Id parameter
       {
-        path: 'portfolio/:id', 
+        path: 'portfolio', 
         element: <Portfolio />,
       },
       {

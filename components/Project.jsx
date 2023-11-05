@@ -5,10 +5,10 @@ const Project = ({Title, deployedLink, githubLink}) => {
         {/* // linke to app and github repo */}
 
         <a href={deployedLink} target="_blank" rel="noopener noreferrer">
-            Deployed link
+            Profolio
         </a>
         <a href={githubLink} target="_blank" rel="noopener noreferrer">
-            Deployed link
+            Github
         </a>
         </div>
     );
