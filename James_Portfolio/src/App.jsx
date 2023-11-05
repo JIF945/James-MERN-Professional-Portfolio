@@ -1,5 +1,5 @@
 // Bringing in the required import from 'react-router-dom' and the Header and Footer
-import React from 'react';
+import React, { useState } from "react";
 import { Outlet } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer'
