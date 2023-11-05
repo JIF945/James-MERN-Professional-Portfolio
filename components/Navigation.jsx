@@ -6,7 +6,7 @@ const Navigation = () => {
       <div className="container-fluid d-flex justify-content-between align-items center">
         <div className="navbar-logo">
           <NavLink to ="/" className="navbar-brand">
-            James portfolio
+            James Portfolio
           </NavLink>
         </div>
         <div className="navbar-menu">
@@ -16,8 +16,9 @@ const Navigation = () => {
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
             aria-controls="#navbarNav"
-            aria-expanded="false"
+            aria-expanded="true"
             aria-label="Toggle navigation"
+            spacing="justified"
           >
             <span className="navbar-toggler-icon"></span>
           </button>

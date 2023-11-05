@@ -7,10 +7,9 @@ import { createBrowserRouter, RouterProvider } from'react-router-dom';
 
 // importing bootstrap
 
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import './App.css'
-import tailwindConfig from '../tailwind.config';
+// import './App.css'
 // Bringing in the pages the router will use to conditionally show the appropriate views
 
 
