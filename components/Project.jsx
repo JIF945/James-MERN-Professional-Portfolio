@@ -18,4 +18,3 @@ export default Project;
 
 
 
-// https://james-professional-portfolio.netlify.app/

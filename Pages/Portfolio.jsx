@@ -1,4 +1,4 @@
-import Project from '/components/Project';
+import Project from '../components/Project';
 
 function Portfolio() {
     const project = [
