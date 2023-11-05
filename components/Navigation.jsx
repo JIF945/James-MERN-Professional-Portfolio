@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav className="navbar-expand-lg navbar-dark bg-pink">
+    <nav  className="navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div className="container-fluid d-flex justify-content-between align-items center">
         <div className="navbar-logo">
           <NavLink to ="/" className="navbar-brand">
@@ -47,6 +47,7 @@ const Navigation = () => {
           </div>
         </div>
       </div>
+     
     </nav>
   );
 };
