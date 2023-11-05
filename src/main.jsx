@@ -12,7 +12,8 @@ import './index.css';
 
 // Bringing in the pages the router will use to conditionally show the appropriate views
 
-import App from './App.jsx'
+
+import App from './App.jsx';
 import AboutMe from '../Pages/AboutMe';
 import Contact from '../Pages/Contact';
 import Portfolio from '../Pages/Portfolio';
