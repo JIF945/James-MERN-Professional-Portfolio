@@ -5,6 +5,7 @@ function Portfolio() {
         {
             title: 'project 1',
             deployedLink: 'https://polite-cannoli-952c90.netlify.app',
+            
             githubLink: 'https://github.com/JIF945?tab=repositories'
         },
     ];
