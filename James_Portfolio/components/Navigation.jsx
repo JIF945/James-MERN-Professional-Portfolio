@@ -24,17 +24,17 @@ const Navigation = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <NavLink to="/pages/aboutMe" className="nav-link active" end>
+                <NavLink to="/aboutMe" className="nav-link active" end>
                   About Me
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/pages/contact" className="nav-link active" end>
+                <NavLink to="/contact" className="nav-link active" end>
                   Contact
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink to="/pages/portfolio" className="nav-link active" end>
+                <NavLink to="/portfolio" className="nav-link active" end>
                   Portfolio
                 </NavLink>
               </li>
