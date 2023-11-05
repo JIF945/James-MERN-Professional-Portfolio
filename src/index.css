@@ -47,8 +47,8 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
-  border-color: #646cff;
+button:hover::before {
+  border-color: #5a33c7a8;
 }
 button:focus,
 button:focus-visible {

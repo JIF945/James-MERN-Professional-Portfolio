@@ -2,23 +2,22 @@ import { NavLink } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav  className="navbar-expand-lg bg-light" data-bs-theme="dark">
+    <nav  className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid d-flex justify-content-between align-items center">
         <div className="navbar-logo">
           <NavLink to ="/" className="navbar-brand">
-            James Portfolio
+            <button>Home</button>
           </NavLink>
         </div>
         <div className="navbar-menu">
           <button
             className="navbar-toggler"
-            type="button"
+            // type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
             aria-controls="#navbarNav"
             aria-expanded="true"
             aria-label="Toggle navigation"
-            spacing="justified"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
