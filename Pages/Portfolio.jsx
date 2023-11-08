@@ -13,7 +13,7 @@ function Portfolio() {
     return (
         <section>
             <h2> Portfolio </h2>
-            <div className='portfolio'>
+            <div className='portfolio-portfolio-expand-lg'>
                 {project.map((project, index) => (
                     <Project key = {index} {...project}/>
                 ))}
