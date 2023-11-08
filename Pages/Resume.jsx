@@ -1,29 +1,28 @@
-import Portfolio from "./Portfolio";
+import Resume from "../components/Project";
 
+function Reseum () {
 
+    const resume =[
+        {
+            title: 'resume 1',
+            resumeLink:'https://www.resume.com'
+        },
+    ];
 
-
-
-
-
-
-
-
-
-export default function resume () {
-    const Resume ()
     return (
         <section>
+           <h2> Resume </h2>
             <div className="container">
                 <div className="row">
+                    {resume.map((project, index) => (
+                        <Resume key = {index} { ...project}/>
+                    ))}
                     <div className="col-md-15">
-                        <h2> Resume </h2>
-                        <p>
-                        <link href="https://www.resume.com/" >Resume </link> 
-                        </p>
                     </div>
                 </div>
             </div>
         </section>
     );
 }
+
+export default Reseum;
