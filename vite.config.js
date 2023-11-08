@@ -10,16 +10,3 @@ export default defineConfig({
     open: true
   }
 })
-
-
-// const path = require('path')
-
-// export default {
-//   root:path.resolve(_dirname, 'src'),
-//   build: {
-//     outdir: '../dist'
-//   },
-//   server: {
-//     port: 3000
-//   }
-// }
