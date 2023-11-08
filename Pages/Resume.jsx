@@ -1,3 +1,15 @@
+import Portfolio from "./Portfolio";
+
+
+
+
+
+
+
+
+
+
+
 export default function resume () {
     const Resume ()
     return (
@@ -6,7 +18,7 @@ export default function resume () {
                 <div className="row">
                     <div className="col-md-15">
                         <h2> Resume </h2>
-                        {}
+                        <p>
                         <link href="https://www.resume.com/" >Resume </link> 
                         </p>
                     </div>
