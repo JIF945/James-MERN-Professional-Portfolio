@@ -13,9 +13,11 @@ function App() {
 // Header, Footer component & The Outlet component will conditionally swap between the different pages according to the URL
   return (
     <>
+    {/* Header component for navigation */}
       <Header />
-      <Footer />
+      {/* Header component for navigation */}
       <Outlet />
+      <Footer />
     </>
   )
 }
