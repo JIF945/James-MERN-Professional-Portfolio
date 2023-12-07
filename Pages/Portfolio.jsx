@@ -4,6 +4,9 @@ function Portfolio() {
     const projects = [
         {
             title: 'Professional Portfolio',
+            description: 'yada yada yada',
+            image: '',
+            githubLink: '',
             deployedLink: 'https://polite-cannoli-952c90.netlify.app',
             
         },
@@ -11,8 +14,12 @@ function Portfolio() {
             title: 'GitHub',
             githubLink: 'https://github.com/JIF945?tab=repositories'
             
+        },
+        {
+            title: 'Car-Rental-Project'
+
         }
-        // Add more projects as needed
+        
     ];
 
     return (
